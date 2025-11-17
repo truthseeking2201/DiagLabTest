@@ -1,4 +1,4 @@
-import { useMemo, useId } from 'react';
+import React, { useMemo, useId } from 'react';
 
 const heroImageUrl = 'https://www.figma.com/api/mcp/asset/e5a40a10-0fd9-4962-b53c-ab43faa17a13';
 const filterIconUrl = 'https://www.figma.com/api/mcp/asset/7992c6e5-0188-494a-a0ca-1e2e5870c486';
@@ -335,9 +335,6 @@ function App() {
                       />
                     </svg>
                   </span>
-                  <button type="button" className="expand" aria-label="Open vault details">
-                    +
-                  </button>
                 </div>
               </article>
             ))}
